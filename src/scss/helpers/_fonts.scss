@@ -1,0 +1,9 @@
+@font-face {
+  @include includeFont(400, $first-font, "PTSerif-Regular");
+}
+
+@font-face {
+  @include includeFont(700, $first-font, "PTSerif-Bold");
+}
+
+

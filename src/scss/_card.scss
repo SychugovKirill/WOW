@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__box {
+  line-height: 0;
+  box-shadow: inset 0 0 0 1px #767373;
+  background-color: #d5dbdc;
+  width: 100%;
+  height: 270px;
+
+  & > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  @media (max-width: 1759px) {
+    height: 210px;
+  }
+
+  @media (max-width: 1279px) {
+    height: 180px;
+  }
+
+  @media (max-width: 1023px) {
+    height: 270px;
+  }
+}
+
+.card__link {
+  margin-top: 30px;
+
+  @media (max-width: 767px) {
+    margin-top: 10px;
+  }
+}
